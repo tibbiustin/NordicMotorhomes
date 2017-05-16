@@ -10,17 +10,13 @@
 <body>
 
 <%
+
 Run run = new Run();
-String name = request.getParameter("name");
-String id = request.getParameter("id");
 String email = request.getParameter("email");
-String cpr = request.getParameter("cpr");
 String password = request.getParameter("password");
 String action = request.getParameter("action");
-if("register".equals(action)){
-	long cprA = Long.parseLong(cpr);
-	Customer customer = new Customer(name, cprA, email, password);
-	run.create(customer);
+if("login".equals(action)){
+	run.login(email, password);
 }
 
 %>
@@ -37,18 +33,15 @@ if("register".equals(action)){
             </div>
         </div>
         <div id="navigation">
-    <p><a style="color:white; text-decoration:none" href="index.jsp">home</a> | <a style="color:white; text-decoration:none" href="login.jsp">login</a> | <a style="color:white; text-decoration:none" href="register.jsp">register</a></p>
+            <p><a style="color:white; text-decoration:none" href="index.jsp">home</a> | <a style="color:white; text-decoration:none" href="login.jsp">login</a> | <a style="color:white; text-decoration:none" href="register.jsp">register</a></p>
         </div>
         <div id="content">
-            <h1>Register</h1>
+            <h1>Login</h1>
             <div style="color:#575b5e;margin-bottom:20px;">
-                <form action="register.jsp">
-                          <input type="hidden" name="id"/>
-                    Name: <input type="text" name="name" /></br><br>
-                    CPR: <input name="cpr"  /><br></br>
+                <form action="login.jsp">
                     E-mail: <input type="text" name="email" /></br></br>
                     Password: <input type="password" name="password" /></br></br>
-                    <button name="action" value="register"> Register </button>
+					<button name="action" value="login"> Login </button>
                 </form>
             </div>
         </div>
@@ -56,7 +49,7 @@ if("register".equals(action)){
             <div class="block">
                 <div class="left">
                     <b>Company & Site Information</b>
-                <ul><li><a style="color:#70818b; text-decoration:none" href="index.jsp">home</li><li><a style="color:#70818b; text-decoration:none" href="login.jsp">login</li><li><a style="color:#70818b; text-decoration:none" href="register.jsp">register</li></ul>
+                    <ul><li><a style="color:#70818b; text-decoration:none" href="index.jsp">home</li><li><a style="color:#70818b; text-decoration:none" href="login.jsp">login</li><li><a style="color:#70818b; text-decoration:none" href="register.jsp">register</li></ul>
                     <hr />
                     <span>
                         &copy;2017 Nordic Motorhomes ApS. All Rights Reserved.</br>

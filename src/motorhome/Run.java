@@ -2,6 +2,7 @@ package motorhome;
 
 
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.sql.DriverManager;
@@ -59,6 +60,24 @@ public class Run {
 		}
 		}
 		
+	}
+	
+	public void login(String email, String password){
+		boolean login = false;
+		try{
+		Connection connection = getConnection();
+	    Statement statement = connection.createStatement();
+	    ResultSet result = statement.executeQuery("select * from customer");
+	    while(result.next()){
+	    	if ((result.getString(3).equals(email)) && (result.getString(4).equals(password))){
+	    		login = true;
+	    	}
+	    	if(login == true){
+	    		System.out.println("Succesfully logged in!");
+	    	}		
+	    }
+		
+		}catch(Exception e){System.out.println(e);}
 	}
 	
 

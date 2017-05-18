@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="1084.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ManagerController">
+  <tabs>
+    <Tab text="Customers">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableCustomers" layoutX="189.0" layoutY="81.0" prefHeight="342.0" prefWidth="706.0">
+                    <columns>
+                      <TableColumn fx:id="id_customer" prefWidth="55.0" text="id" />
+                      <TableColumn fx:id="name_customer" prefWidth="140.0" text="name" />
+                        <TableColumn fx:id="cpr_customer" prefWidth="155.0" text="cpr" />
+                        <TableColumn fx:id="email_customer" prefWidth="178.0" text="email" />
+                        <TableColumn fx:id="password_customer" prefWidth="177.0" text="password" />
+                    </columns>
+                  </TableView>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Reservation">
+        <content>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="1256.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+                <children>
+                    <Label layoutX="550.0" layoutY="25.0" text="Reservation" textAlignment="CENTER">
+                        <font>
+                            <Font name="System Bold" size="28.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="85.0" layoutY="108.0" text="Id:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="85.0" layoutY="143.0" text="Customer id:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="85.0" layoutY="179.0" text="Vehicle id:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="85.0" layoutY="213.0" text="Start date:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="85.0" layoutY="251.0" text="Finish date:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="85.0" layoutY="288.0" text="Pick up place:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="87.0" layoutY="322.0" text="Drop off place:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="85.0" layoutY="357.0" text="Price:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="87.0" layoutY="394.0" text="Bike:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="87.0" layoutY="427.0" text="Picnic:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="87.0" layoutY="458.0" text="Child seat:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="88.0" layoutY="490.0" text="Payment type:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="590.0" layoutY="110.0" text="Is it paid?">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="590.0" layoutY="143.0" text="Fuel level over half?">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="588.0" layoutY="179.0" text="Mechanic's approval:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <Label layoutX="588.0" layoutY="213.0" text="Mechanic's coments:">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <TextField fx:id="reservation_id" layoutX="198.0" layoutY="106.0" />
+                    <TextField fx:id="reservation_customer_id" layoutX="198.0" layoutY="141.0" />
+                    <TextField fx:id="reservation_vehicle" layoutX="198.0" layoutY="177.0" />
+                    <TextField fx:id="reservation_start" layoutX="198.0" layoutY="211.0" />
+                    <TextField fx:id="reservation_finish" layoutX="198.0" layoutY="249.0" />
+                    <TextField fx:id="reservation_pick" layoutX="198.0" layoutY="286.0" />
+                    <TextField fx:id="reservation_drop" layoutX="198.0" layoutY="320.0" />
+                    <TextField fx:id="reservation_price" layoutX="198.0" layoutY="355.0" />
+                    <TextField fx:id="reservation_bike" layoutX="198.0" layoutY="392.0" />
+                    <TextField fx:id="reservation_picnic" layoutX="198.0" layoutY="425.0" />
+                    <TextField fx:id="reservation_child" layoutX="198.0" layoutY="456.0" />
+                    <TextField fx:id="reservation_payment" layoutX="198.0" layoutY="488.0" />
+                    <TextField fx:id="reservation_paid" layoutX="750.0" layoutY="108.0" />
+                    <TextField fx:id="reservation_fuel" layoutX="750.0" layoutY="141.0" />
+                    <TextField fx:id="reservation_mechanic" layoutX="750.0" layoutY="177.0" />
+                    <TextField fx:id="reservation_comments" layoutX="750.0" layoutY="211.0" />
+                    <Button fx:id="reservationCreateButton" layoutX="661.0" layoutY="286.0" mnemonicParsing="false" onAction="#createReservation" text="Create" />
+                    <Button fx:id="reservationSaveButton" layoutX="760.0" layoutY="286.0" mnemonicParsing="false" onAction="#reservationSave" text="Save " />
+                </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+    <Tab text="Reservations">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableReservation" layoutX="40.0" layoutY="24.0" prefHeight="393.0" prefWidth="1031.0">
+                    <columns>
+                      <TableColumn fx:id="id_reservation" prefWidth="35.0" text="id" />
+                      <TableColumn fx:id="start_reservation" prefWidth="76.0" text="start date" />
+                        <TableColumn fx:id="finish_reservation" prefWidth="78.0" text="finish date" />
+                        <TableColumn fx:id="id_customer_reservation" prefWidth="74.0" text="customer_id" />
+                        <TableColumn fx:id="pickup_reservation" prefWidth="78.0" text="pickup place" />
+                        <TableColumn fx:id="dropoff_reservation" prefWidth="73.0" text="drop place" />
+                        <TableColumn fx:id="price_reservation" prefWidth="38.0" text="price" />
+                        <TableColumn fx:id="bike_reservation" prefWidth="44.0" text="bike" />
+                        <TableColumn fx:id="picnic_reservation" prefWidth="46.0" text="picnic" />
+                        <TableColumn fx:id="child_reservation" prefWidth="41.0" text="child" />
+                        <TableColumn fx:id="payment_type_reservation" prefWidth="69.0" text="pay type" />
+                        <TableColumn fx:id="paid_reservation" prefWidth="69.0" text="paid" />
+                        <TableColumn fx:id="fuel_level_over_half_reservation" prefWidth="67.0" text="fuel&gt;1/2" />
+                        <TableColumn fx:id="mechanic_approval_reservation" text="mech apr" />
+                        <TableColumn fx:id="mechanic_comments" prefWidth="85.0" text="mech comments" />
+                        <TableColumn fx:id="vehicle_reservation" prefWidth="77.0" text="vehicle" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="addReservationButton" layoutX="387.0" layoutY="449.0" mnemonicParsing="false" onAction="#openReservationPanel" text="Add" />
+                  <Button fx:id="editReservationButton" layoutX="507.0" layoutY="449.0" mnemonicParsing="false" onAction="#editReservation" text="Edit" />
+                  <Button fx:id="deleteReservationButton" layoutX="645.0" layoutY="449.0" mnemonicParsing="false" onAction="#deleteReservation" text="Delete" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+      <Tab text="Type of vehicles">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableTypeOfVehicle" layoutX="464.0" layoutY="45.0" prefHeight="345.0" prefWidth="541.0">
+                    <columns>
+                      <TableColumn fx:id="id_typeOfVehicle" prefWidth="75.0" text="id" />
+                      <TableColumn fx:id="brand_typeOfVehicle" prefWidth="204.0" text="brand" />
+                        <TableColumn fx:id="capacity_typeOfVehicle" prefWidth="260.0" text="capacity" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="deleteTypeOfVehicleButton" layoutX="517.0" layoutY="439.0" mnemonicParsing="false" onAction="#deleteTypeOfVehicle" text="Delete" />
+                  <Label layoutX="59.0" layoutY="83.0" text="Type of vehicle:">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="59.0" layoutY="152.0" text="Brand:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="brand_tov" layoutX="133.0" layoutY="150.0" />
+                  <Label layoutX="59.0" layoutY="218.0" text="Capacity:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="capacity_tov" layoutX="133.0" layoutY="216.0" />
+                  <Button fx:id="addTypeOfVehicleButton" layoutX="438.0" layoutY="439.0" mnemonicParsing="false" onAction="#addTypeOfVehicle" text="Add" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+      <Tab text="Vehicles">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="tableVehicle" layoutX="524.0" layoutY="47.0" prefHeight="324.0" prefWidth="488.0">
+                    <columns>
+                      <TableColumn fx:id="id_vehicle" prefWidth="71.0" text="id" />
+                      <TableColumn fx:id="type_vehicle" prefWidth="83.0" text="type " />
+                        <TableColumn fx:id="license_vehicle" prefWidth="138.0" text="license plate" />
+                        <TableColumn fx:id="booked_vehicle" prefWidth="104.0" text="booked (YES/NO)" />
+                        <TableColumn fx:id="price_vehicle" prefWidth="91.0" text="price" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="deleteVehicleButton" layoutX="597.0" layoutY="402.0" mnemonicParsing="false" onAction="#deleteVehicle" text="Delete" />
+                  <Button fx:id="addVehicleButton" layoutX="407.0" layoutY="402.0" mnemonicParsing="false" onAction="#addVehicle" text="Add" />
+                  <Label layoutX="59.0" layoutY="47.0" prefHeight="38.0" prefWidth="101.0" text="Vehicle:">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="59.0" layoutY="104.0" text="Type:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="vehicleType" layoutX="160.0" layoutY="102.0" prefHeight="25.0" prefWidth="141.0" />
+                  <Label layoutX="59.0" layoutY="151.0" text="License plate:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="vehicleLicense" layoutX="160.0" layoutY="149.0" prefHeight="25.0" prefWidth="141.0" />
+                  <Label layoutX="59.0" layoutY="189.0" text="Booked?">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="vehicleBooked" layoutX="160.0" layoutY="187.0" prefHeight="25.0" prefWidth="141.0" />
+                  <Label layoutX="59.0" layoutY="229.0" text="Price:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="vehiclePrice" layoutX="160.0" layoutY="227.0" prefHeight="25.0" prefWidth="141.0" />
+                  <Button fx:id="editVehicleButton" layoutX="470.0" layoutY="402.0" mnemonicParsing="false" onAction="#editVehicle" text="Edit" />
+                  <Button fx:id="saveVehicleButton" layoutX="533.0" layoutY="402.0" mnemonicParsing="false" onAction="#saveVehicle" text="Save" />
+               </children>
+            </AnchorPane>
+        </content>
+      </Tab>
+  </tabs>
+</TabPane>

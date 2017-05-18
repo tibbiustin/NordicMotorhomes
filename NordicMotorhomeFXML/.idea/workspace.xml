@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1495133408514" expanded="true" signature="1317:1336" ph="select * fro... admin" />
+                <marker date="1495133408514" expanded="true" signature="1996:2018" ph="select * fro... mechanic" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManagerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ManagerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="241" column="45" lean-forward="true" selection-start-line="240" selection-start-column="9" selection-end-line="241" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1495132038466" expanded="true" signature="2411:2424" ph="SELECT * FRO... " />
+                <marker date="1495132038466" expanded="true" signature="2411:2425" ph="SELECT * FRO... tournament_teams" />
+                <marker date="1495132038466" expanded="true" signature="2411:2433" ph="SELECT * FRO... customer" />
+                <marker date="1495132038466" expanded="true" signature="2411:2435" ph="SELECT * FRO... " />
+                <marker date="1495132038466" expanded="true" signature="3562:3576" ph="SELECT * FRO... customer" />
+                <marker date="1495132038466" expanded="true" signature="3562:3589" ph="SELECT * FRO... typeofvehicle" />
+                <marker date="1495132038466" expanded="true" signature="4675:4725" ph="DELETE FROM " />
+                <marker date="1495132038466" expanded="true" signature="5519:5540" ph="SELECT * FRO... vehicle" />
+                <marker date="1495132038466" expanded="true" signature="6715:6738" ph="DELETE FROM " />
+                <marker date="1495132038466" expanded="true" signature="6715:6751" ph="DELETE FROM " />
+                <marker date="1495132038466" expanded="true" signature="6715:6753" ph="DELETE FROM " />
+                <marker date="1495132038466" expanded="true" signature="7557:7647" ph="INSERT INTO vehicle... " />
+                <marker date="1495132038466" expanded="true" signature="7557:7648" ph="INSERT INTO vehicle... " />
+                <marker date="1495132038466" expanded="true" signature="7557:7665" ph="INSERT INTO vehicle... " />
+                <marker date="1495132038466" expanded="true" signature="7557:7688" ph="INSERT INTO vehicle... " />
+                <marker date="1495132038466" expanded="true" signature="7557:7710" ph="INSERT INTO vehicle... " />
+                <marker date="1495132038466" expanded="true" signature="7557:7713" ph="INSERT INTO vehicle... " />
+                <marker date="1495132038466" expanded="true" signature="7557:7731" ph="INSERT INTO vehicle... " />
+                <marker date="1495132038466" expanded="true" signature="7557:7732" ph="INSERT INTO vehicle... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8857" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8858" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8884" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8903" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8932" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8949" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8950" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8978" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8994" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:8995" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:9041" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:9068" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="8825:9069" ph="UPDATE vehic... " />
+                <marker date="1495132038466" expanded="true" signature="9787:9812" ph="INSERT INTO typeofvehicle... " />
+                <marker date="1495132038466" expanded="true" signature="9787:9866" ph="INSERT INTO typeofvehicle... " />
+                <marker date="1495132038466" expanded="true" signature="9787:9867" ph="INSERT INTO typeofvehicle... " />
+                <marker date="1495132038466" expanded="true" signature="9787:9888" ph="INSERT INTO typeofvehicle... " />
+                <marker date="1495132038466" expanded="true" signature="9787:9894" ph="INSERT INTO typeofvehicle... " />
+                <marker date="1495132038466" expanded="true" signature="9787:9922" ph="INSERT INTO typeofvehicle... " />
+                <marker date="1495132038466" expanded="true" signature="11780:11805" ph="SELECT * FRO... reservation" />
+                <marker date="1495132038466" expanded="true" signature="14699:14745" ph="DELETE FROM " />
+                <marker date="1495132038466" expanded="true" signature="17092:17563" ph="INSERT INTO reservation... " />
+                <marker date="1495132038466" expanded="true" signature="20524:21021" ph="UPDATE reser... " />
+                <marker date="1495132038466" expanded="true" signature="20524:21389" ph="UPDATE reser... " />
+                <marker date="1495132038466" expanded="true" signature="20524:21395" ph="UPDATE reser... " />
+                <marker date="1495132038466" expanded="true" signature="20524:21412" ph="UPDATE reser... " />
+                <marker date="1495132038466" expanded="true" signature="20524:21433" ph="UPDATE reser... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MechanicController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/MechanicController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <marker date="1495134219584" expanded="true" signature="2548:2573" ph="SELECT * FRO... reservation" />
+                <marker date="1495134219584" expanded="true" signature="5190:5246" ph="UPDATE reser... " />
+                <marker date="1495134219584" expanded="true" signature="5190:5269" ph="UPDATE reser... " />
+                <marker date="1495134219584" expanded="true" signature="5190:5271" ph="UPDATE reser... " />
+                <marker date="1495134219584" expanded="true" signature="5190:5307" ph="UPDATE reser... " />
+                <marker date="1495134219584" expanded="true" signature="5190:5309" ph="UPDATE reser... " />
+                <marker date="1495134219584" expanded="true" signature="5757:5874" ph="UPDATE reser... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="windowMechanic.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/windowMechanic.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125">
+              <caret line="7" column="265" lean-forward="false" selection-start-line="7" selection-start-column="265" selection-end-line="7" selection-end-column="265" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/login.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="239" lean-forward="false" selection-start-line="11" selection-start-column="206" selection-end-line="11" selection-end-column="239" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="window.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/window.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reservation.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/reservation.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="114" column="13" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="114" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeOfVehicle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/TypeOfVehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Manager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>(</find>
+      <find>tableView</find>
+      <find>getBool</find>
+      <find>delete</find>
+      <find>public</find>
+      <find>addReser</find>
+      <find>edit</find>
+      <find>load</find>
+      <find>getsele</find>
+      <find>tableReservation</find>
+      <find>editRe</find>
+      <find>create</find>
+      <find>addRes</find>
+      <find>SAVE</find>
+      <find>reservationcontro</find>
+      <find>)</find>
+      <find>init</find>
+      <find>save</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/login.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Manager.java" />
+        <option value="$PROJECT_DIR$/src/sample/DatabaseConnection.java" />
+        <option value="$PROJECT_DIR$/src/sample/Customer.java" />
+        <option value="$PROJECT_DIR$/src/sample/TypeOfVehicle.java" />
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/sample/Reservation.java" />
+        <option value="$PROJECT_DIR$/src/sample/GlobalVariables.java" />
+        <option value="$PROJECT_DIR$/src/sample/ReservationController.java" />
+        <option value="$PROJECT_DIR$/src/sample/reservation.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/window.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ManagerController.java" />
+        <option value="$PROJECT_DIR$/src/sample/windowMechanic.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/MechanicController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NordicMotorhomeFXML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NordicMotorhomeFXML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NordicMotorhomeFXML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NordicMotorhomeFXML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Foosball-master" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NordicMotorhomeFXML" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NordicMotorhomeFXML" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1495013045646" duration="11989000" />
+      <workItem from="1495025214657" duration="5371000" />
+      <workItem from="1495048540253" duration="13407000" />
+      <workItem from="1495120718124" duration="13504000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45573000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947916" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.6703755" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495133408514" expanded="true" signature="1317:1336" ph="select * fro... admin" />
+            <marker date="1495133408514" expanded="true" signature="1996:2018" ph="select * fro... mechanic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495132038466" expanded="true" signature="2411:2424" ph="SELECT * FRO... " />
+            <marker date="1495132038466" expanded="true" signature="2411:2425" ph="SELECT * FRO... tournament_teams" />
+            <marker date="1495132038466" expanded="true" signature="2411:2433" ph="SELECT * FRO... customer" />
+            <marker date="1495132038466" expanded="true" signature="2411:2435" ph="SELECT * FRO... " />
+            <marker date="1495132038466" expanded="true" signature="3562:3576" ph="SELECT * FRO... customer" />
+            <marker date="1495132038466" expanded="true" signature="3562:3589" ph="SELECT * FRO... typeofvehicle" />
+            <marker date="1495132038466" expanded="true" signature="4675:4725" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="5519:5540" ph="SELECT * FRO... vehicle" />
+            <marker date="1495132038466" expanded="true" signature="6715:6738" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="6715:6751" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="6715:6753" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="7557:7647" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7648" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7665" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7688" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7710" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7713" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7731" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7732" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8857" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8858" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8884" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8903" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8932" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8949" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8950" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8978" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8994" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8995" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9041" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9068" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9069" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9812" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9866" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9867" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9888" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9894" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9922" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="11780:11805" ph="SELECT * FRO... reservation" />
+            <marker date="1495132038466" expanded="true" signature="14699:14745" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="17092:17563" ph="INSERT INTO reservation... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21021" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21389" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21395" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21412" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21433" ph="UPDATE reser... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="124" lean-forward="false" selection-start-line="26" selection-start-column="124" selection-end-line="26" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2902#2903#0" expanded="false" />
+            <element signature="e#2945#2946#0" expanded="false" />
+            <element signature="e#3000#3001#0" expanded="false" />
+            <element signature="e#3037#3038#0" expanded="false" />
+            <element signature="e#3094#3095#0" expanded="false" />
+            <element signature="e#3149#3150#0" expanded="false" />
+            <element signature="e#3193#3194#0" expanded="false" />
+            <element signature="e#3239#3240#0" expanded="false" />
+            <element signature="e#3296#3297#0" expanded="false" />
+            <element signature="e#3336#3337#0" expanded="false" />
+            <element signature="e#3402#3403#0" expanded="false" />
+            <element signature="e#3463#3464#0" expanded="false" />
+            <element signature="e#3508#3509#0" expanded="false" />
+            <element signature="e#3555#3556#0" expanded="false" />
+            <element signature="e#3613#3614#0" expanded="false" />
+            <element signature="e#3654#3655#0" expanded="false" />
+            <element signature="e#3722#3723#0" expanded="false" />
+            <element signature="e#3785#3786#0" expanded="false" />
+            <element signature="e#3832#3833#0" expanded="false" />
+            <element signature="e#3884#3885#0" expanded="false" />
+            <element signature="e#3948#3949#0" expanded="false" />
+            <element signature="e#3994#3995#0" expanded="false" />
+            <element signature="e#4185#4186#0" expanded="false" />
+            <element signature="e#4233#4234#0" expanded="false" />
+            <element signature="e#4293#4294#0" expanded="false" />
+            <element signature="e#4335#4336#0" expanded="false" />
+            <element signature="e#4402#4403#0" expanded="false" />
+            <element signature="e#4467#4468#0" expanded="false" />
+            <element signature="e#4512#4513#0" expanded="false" />
+            <element signature="e#4559#4560#0" expanded="false" />
+            <element signature="e#4617#4618#0" expanded="false" />
+            <element signature="e#4658#4659#0" expanded="false" />
+            <element signature="e#4726#4727#0" expanded="false" />
+            <element signature="e#4789#4790#0" expanded="false" />
+            <element signature="e#4835#4836#0" expanded="false" />
+            <element signature="e#4883#4884#0" expanded="false" />
+            <element signature="e#4942#4943#0" expanded="false" />
+            <element signature="e#4984#4985#0" expanded="false" />
+            <element signature="e#5160#5161#0" expanded="false" />
+            <element signature="e#5206#5207#0" expanded="false" />
+            <element signature="e#5264#5265#0" expanded="false" />
+            <element signature="e#5304#5305#0" expanded="false" />
+            <element signature="e#5367#5368#0" expanded="false" />
+            <element signature="e#5428#5429#0" expanded="false" />
+            <element signature="e#5471#5472#0" expanded="false" />
+            <element signature="e#5516#5517#0" expanded="false" />
+            <element signature="e#5573#5574#0" expanded="false" />
+            <element signature="e#5612#5613#0" expanded="false" />
+            <element signature="e#5677#5678#0" expanded="false" />
+            <element signature="e#5736#5737#0" expanded="false" />
+            <element signature="e#5780#5781#0" expanded="false" />
+            <element signature="e#5826#5827#0" expanded="false" />
+            <element signature="e#5884#5885#0" expanded="false" />
+            <element signature="e#5924#5925#0" expanded="false" />
+            <element signature="e#5991#5992#0" expanded="false" />
+            <element signature="e#6052#6053#0" expanded="false" />
+            <element signature="e#6097#6098#0" expanded="false" />
+            <element signature="e#6144#6145#0" expanded="false" />
+            <element signature="e#6203#6204#0" expanded="false" />
+            <element signature="e#6244#6245#0" expanded="false" />
+            <element signature="e#6313#6314#0" expanded="false" />
+            <element signature="e#6376#6377#0" expanded="false" />
+            <element signature="e#6427#6428#0" expanded="false" />
+            <element signature="e#6480#6481#0" expanded="false" />
+            <element signature="e#6544#6545#0" expanded="false" />
+            <element signature="e#6591#6592#0" expanded="false" />
+            <element signature="e#6789#6790#0" expanded="false" />
+            <element signature="e#6834#6835#0" expanded="false" />
+            <element signature="e#6891#6892#0" expanded="false" />
+            <element signature="e#6930#6931#0" expanded="false" />
+            <element signature="e#6995#6996#0" expanded="false" />
+            <element signature="e#7054#7055#0" expanded="false" />
+            <element signature="e#7113#7114#0" expanded="false" />
+            <element signature="e#7174#7175#0" expanded="false" />
+            <element signature="e#7247#7248#0" expanded="false" />
+            <element signature="e#7302#7303#0" expanded="false" />
+            <element signature="e#7546#7547#0" expanded="false" />
+            <element signature="e#7604#7605#0" expanded="false" />
+            <element signature="e#7674#7675#0" expanded="false" />
+            <element signature="e#7726#7727#0" expanded="false" />
+            <element signature="e#7946#7947#0" expanded="false" />
+            <element signature="e#7992#7993#0" expanded="false" />
+            <element signature="e#8049#8050#0" expanded="false" />
+            <element signature="e#8089#8090#0" expanded="false" />
+            <element signature="e#8155#8156#0" expanded="false" />
+            <element signature="e#8216#8217#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TypeOfVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="239" lean-forward="false" selection-start-line="11" selection-start-column="206" selection-end-line="11" selection-end-column="239" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="140" column="10" lean-forward="true" selection-start-line="140" selection-start-column="10" selection-end-line="140" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="152" column="87" lean-forward="true" selection-start-line="152" selection-start-column="87" selection-end-line="152" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495132038466" expanded="true" signature="2411:2424" ph="SELECT * FRO... " />
+            <marker date="1495132038466" expanded="true" signature="2411:2425" ph="SELECT * FRO... tournament_teams" />
+            <marker date="1495132038466" expanded="true" signature="2411:2433" ph="SELECT * FRO... customer" />
+            <marker date="1495132038466" expanded="true" signature="2411:2435" ph="SELECT * FRO... " />
+            <marker date="1495132038466" expanded="true" signature="3562:3576" ph="SELECT * FRO... customer" />
+            <marker date="1495132038466" expanded="true" signature="3562:3589" ph="SELECT * FRO... typeofvehicle" />
+            <marker date="1495132038466" expanded="true" signature="4675:4725" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="5519:5540" ph="SELECT * FRO... vehicle" />
+            <marker date="1495132038466" expanded="true" signature="6715:6738" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="6715:6751" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="6715:6753" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="7557:7647" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7648" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7665" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7688" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7710" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7713" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7731" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7732" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8857" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8858" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8884" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8903" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8932" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8949" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8950" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8978" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8994" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8995" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9041" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9068" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9069" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9812" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9866" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9867" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9888" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9894" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9922" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="11780:11805" ph="SELECT * FRO... reservation" />
+            <marker date="1495132038466" expanded="true" signature="14699:14745" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="17092:17563" ph="INSERT INTO reservation... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21021" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21389" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21395" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21412" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21433" ph="UPDATE reser... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TypeOfVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="239" lean-forward="false" selection-start-line="11" selection-start-column="206" selection-end-line="11" selection-end-column="239" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495133408514" expanded="true" signature="1317:1336" ph="select * fro... admin" />
+            <marker date="1495133408514" expanded="true" signature="1996:2018" ph="select * fro... mechanic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495133408514" expanded="true" signature="1317:1336" ph="select * fro... admin" />
+            <marker date="1495133408514" expanded="true" signature="1996:2018" ph="select * fro... mechanic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="239" lean-forward="false" selection-start-line="11" selection-start-column="206" selection-end-line="11" selection-end-column="239" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="274" lean-forward="false" selection-start-line="6" selection-start-column="274" selection-end-line="6" selection-end-column="274" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495132038466" expanded="true" signature="2411:2424" ph="SELECT * FRO... " />
+            <marker date="1495132038466" expanded="true" signature="2411:2425" ph="SELECT * FRO... tournament_teams" />
+            <marker date="1495132038466" expanded="true" signature="2411:2433" ph="SELECT * FRO... customer" />
+            <marker date="1495132038466" expanded="true" signature="2411:2435" ph="SELECT * FRO... " />
+            <marker date="1495132038466" expanded="true" signature="3562:3576" ph="SELECT * FRO... customer" />
+            <marker date="1495132038466" expanded="true" signature="3562:3589" ph="SELECT * FRO... typeofvehicle" />
+            <marker date="1495132038466" expanded="true" signature="4675:4725" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="5519:5540" ph="SELECT * FRO... vehicle" />
+            <marker date="1495132038466" expanded="true" signature="6715:6738" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="6715:6751" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="6715:6753" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="7557:7647" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7648" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7665" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7688" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7710" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7713" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7731" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7732" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8857" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8858" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8884" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8903" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8932" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8949" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8950" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8978" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8994" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8995" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9041" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9068" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9069" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9812" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9866" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9867" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9888" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9894" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9922" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="11780:11805" ph="SELECT * FRO... reservation" />
+            <marker date="1495132038466" expanded="true" signature="14699:14745" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="17092:17563" ph="INSERT INTO reservation... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21021" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21389" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21395" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21412" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21433" ph="UPDATE reser... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495133408514" expanded="true" signature="1317:1336" ph="select * fro... admin" />
+            <marker date="1495133408514" expanded="true" signature="1996:2018" ph="select * fro... mechanic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DatabaseConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Reservation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="124" lean-forward="false" selection-start-line="26" selection-start-column="124" selection-end-line="26" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2902#2903#0" expanded="false" />
+            <element signature="e#2945#2946#0" expanded="false" />
+            <element signature="e#3000#3001#0" expanded="false" />
+            <element signature="e#3037#3038#0" expanded="false" />
+            <element signature="e#3094#3095#0" expanded="false" />
+            <element signature="e#3149#3150#0" expanded="false" />
+            <element signature="e#3193#3194#0" expanded="false" />
+            <element signature="e#3239#3240#0" expanded="false" />
+            <element signature="e#3296#3297#0" expanded="false" />
+            <element signature="e#3336#3337#0" expanded="false" />
+            <element signature="e#3402#3403#0" expanded="false" />
+            <element signature="e#3463#3464#0" expanded="false" />
+            <element signature="e#3508#3509#0" expanded="false" />
+            <element signature="e#3555#3556#0" expanded="false" />
+            <element signature="e#3613#3614#0" expanded="false" />
+            <element signature="e#3654#3655#0" expanded="false" />
+            <element signature="e#3722#3723#0" expanded="false" />
+            <element signature="e#3785#3786#0" expanded="false" />
+            <element signature="e#3832#3833#0" expanded="false" />
+            <element signature="e#3884#3885#0" expanded="false" />
+            <element signature="e#3948#3949#0" expanded="false" />
+            <element signature="e#3994#3995#0" expanded="false" />
+            <element signature="e#4185#4186#0" expanded="false" />
+            <element signature="e#4233#4234#0" expanded="false" />
+            <element signature="e#4293#4294#0" expanded="false" />
+            <element signature="e#4335#4336#0" expanded="false" />
+            <element signature="e#4402#4403#0" expanded="false" />
+            <element signature="e#4467#4468#0" expanded="false" />
+            <element signature="e#4512#4513#0" expanded="false" />
+            <element signature="e#4559#4560#0" expanded="false" />
+            <element signature="e#4617#4618#0" expanded="false" />
+            <element signature="e#4658#4659#0" expanded="false" />
+            <element signature="e#4726#4727#0" expanded="false" />
+            <element signature="e#4789#4790#0" expanded="false" />
+            <element signature="e#4835#4836#0" expanded="false" />
+            <element signature="e#4883#4884#0" expanded="false" />
+            <element signature="e#4942#4943#0" expanded="false" />
+            <element signature="e#4984#4985#0" expanded="false" />
+            <element signature="e#5160#5161#0" expanded="false" />
+            <element signature="e#5206#5207#0" expanded="false" />
+            <element signature="e#5264#5265#0" expanded="false" />
+            <element signature="e#5304#5305#0" expanded="false" />
+            <element signature="e#5367#5368#0" expanded="false" />
+            <element signature="e#5428#5429#0" expanded="false" />
+            <element signature="e#5471#5472#0" expanded="false" />
+            <element signature="e#5516#5517#0" expanded="false" />
+            <element signature="e#5573#5574#0" expanded="false" />
+            <element signature="e#5612#5613#0" expanded="false" />
+            <element signature="e#5677#5678#0" expanded="false" />
+            <element signature="e#5736#5737#0" expanded="false" />
+            <element signature="e#5780#5781#0" expanded="false" />
+            <element signature="e#5826#5827#0" expanded="false" />
+            <element signature="e#5884#5885#0" expanded="false" />
+            <element signature="e#5924#5925#0" expanded="false" />
+            <element signature="e#5991#5992#0" expanded="false" />
+            <element signature="e#6052#6053#0" expanded="false" />
+            <element signature="e#6097#6098#0" expanded="false" />
+            <element signature="e#6144#6145#0" expanded="false" />
+            <element signature="e#6203#6204#0" expanded="false" />
+            <element signature="e#6244#6245#0" expanded="false" />
+            <element signature="e#6313#6314#0" expanded="false" />
+            <element signature="e#6376#6377#0" expanded="false" />
+            <element signature="e#6427#6428#0" expanded="false" />
+            <element signature="e#6480#6481#0" expanded="false" />
+            <element signature="e#6544#6545#0" expanded="false" />
+            <element signature="e#6591#6592#0" expanded="false" />
+            <element signature="e#6789#6790#0" expanded="false" />
+            <element signature="e#6834#6835#0" expanded="false" />
+            <element signature="e#6891#6892#0" expanded="false" />
+            <element signature="e#6930#6931#0" expanded="false" />
+            <element signature="e#6995#6996#0" expanded="false" />
+            <element signature="e#7054#7055#0" expanded="false" />
+            <element signature="e#7113#7114#0" expanded="false" />
+            <element signature="e#7174#7175#0" expanded="false" />
+            <element signature="e#7247#7248#0" expanded="false" />
+            <element signature="e#7302#7303#0" expanded="false" />
+            <element signature="e#7546#7547#0" expanded="false" />
+            <element signature="e#7604#7605#0" expanded="false" />
+            <element signature="e#7674#7675#0" expanded="false" />
+            <element signature="e#7726#7727#0" expanded="false" />
+            <element signature="e#7946#7947#0" expanded="false" />
+            <element signature="e#7992#7993#0" expanded="false" />
+            <element signature="e#8049#8050#0" expanded="false" />
+            <element signature="e#8089#8090#0" expanded="false" />
+            <element signature="e#8155#8156#0" expanded="false" />
+            <element signature="e#8216#8217#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/GlobalVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="123" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TypeOfVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="239" lean-forward="false" selection-start-line="11" selection-start-column="206" selection-end-line="11" selection-end-column="239" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/reservation.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="114" column="13" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="114" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/window.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495133408514" expanded="true" signature="1317:1336" ph="select * fro... admin" />
+            <marker date="1495133408514" expanded="true" signature="1996:2018" ph="select * fro... mechanic" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="241" column="45" lean-forward="true" selection-start-line="240" selection-start-column="9" selection-end-line="241" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1495132038466" expanded="true" signature="2411:2424" ph="SELECT * FRO... " />
+            <marker date="1495132038466" expanded="true" signature="2411:2425" ph="SELECT * FRO... tournament_teams" />
+            <marker date="1495132038466" expanded="true" signature="2411:2433" ph="SELECT * FRO... customer" />
+            <marker date="1495132038466" expanded="true" signature="2411:2435" ph="SELECT * FRO... " />
+            <marker date="1495132038466" expanded="true" signature="3562:3576" ph="SELECT * FRO... customer" />
+            <marker date="1495132038466" expanded="true" signature="3562:3589" ph="SELECT * FRO... typeofvehicle" />
+            <marker date="1495132038466" expanded="true" signature="4675:4725" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="5519:5540" ph="SELECT * FRO... vehicle" />
+            <marker date="1495132038466" expanded="true" signature="6715:6738" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="6715:6751" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="6715:6753" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="7557:7647" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7648" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7665" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7688" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7710" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7713" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7731" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="7557:7732" ph="INSERT INTO vehicle... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8857" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8858" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8884" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8903" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8932" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8949" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8950" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8978" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8994" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:8995" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9041" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9068" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="8825:9069" ph="UPDATE vehic... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9812" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9866" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9867" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9888" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9894" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="9787:9922" ph="INSERT INTO typeofvehicle... " />
+            <marker date="1495132038466" expanded="true" signature="11780:11805" ph="SELECT * FRO... reservation" />
+            <marker date="1495132038466" expanded="true" signature="14699:14745" ph="DELETE FROM " />
+            <marker date="1495132038466" expanded="true" signature="17092:17563" ph="INSERT INTO reservation... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21021" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21389" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21395" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21412" ph="UPDATE reser... " />
+            <marker date="1495132038466" expanded="true" signature="20524:21433" ph="UPDATE reser... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/windowMechanic.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="7" column="265" lean-forward="false" selection-start-line="7" selection-start-column="265" selection-end-line="7" selection-end-column="265" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/MechanicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1495134219584" expanded="true" signature="2548:2573" ph="SELECT * FRO... reservation" />
+            <marker date="1495134219584" expanded="true" signature="5190:5246" ph="UPDATE reser... " />
+            <marker date="1495134219584" expanded="true" signature="5190:5269" ph="UPDATE reser... " />
+            <marker date="1495134219584" expanded="true" signature="5190:5271" ph="UPDATE reser... " />
+            <marker date="1495134219584" expanded="true" signature="5190:5307" ph="UPDATE reser... " />
+            <marker date="1495134219584" expanded="true" signature="5190:5309" ph="UPDATE reser... " />
+            <marker date="1495134219584" expanded="true" signature="5757:5874" ph="UPDATE reser... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaFXApp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NordicMotorhomeFXML</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

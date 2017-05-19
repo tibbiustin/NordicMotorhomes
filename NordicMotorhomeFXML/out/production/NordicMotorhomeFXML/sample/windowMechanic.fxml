@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="1084.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MechanicController">
+    <tabs>
+        <Tab text="Reservations">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <TableView fx:id="tableReservation" layoutX="40.0" layoutY="24.0" prefHeight="265.0" prefWidth="1031.0">
+                            <columns>
+                                <TableColumn fx:id="id_reservation" prefWidth="35.0" text="id" />
+                                <TableColumn fx:id="start_reservation" prefWidth="76.0" text="start date" />
+                                <TableColumn fx:id="finish_reservation" prefWidth="78.0" text="finish date" />
+                                <TableColumn fx:id="id_customer_reservation" prefWidth="74.0" text="customer_id" />
+                                <TableColumn fx:id="pickup_reservation" prefWidth="78.0" text="pickup place" />
+                                <TableColumn fx:id="dropoff_reservation" prefWidth="73.0" text="drop place" />
+                                <TableColumn fx:id="price_reservation" prefWidth="38.0" text="price" />
+                                <TableColumn fx:id="bike_reservation" prefWidth="44.0" text="bike" />
+                                <TableColumn fx:id="picnic_reservation" prefWidth="46.0" text="picnic" />
+                                <TableColumn fx:id="child_reservation" prefWidth="41.0" text="child" />
+                                <TableColumn fx:id="payment_type_reservation" prefWidth="69.0" text="pay type" />
+                                <TableColumn fx:id="paid_reservation" prefWidth="69.0" text="paid" />
+                                <TableColumn fx:id="fuel_level_over_half_reservation" prefWidth="67.0" text="fuel&gt;1/2" />
+                                <TableColumn fx:id="mechanic_approval_reservation" text="mech apr" />
+                                <TableColumn fx:id="mechanic_comments" prefWidth="85.0" text="mech comments" />
+                                <TableColumn fx:id="vehicle_reservation" prefWidth="77.0" text="vehicle" />
+                            </columns>
+                        </TableView>
+                  <TextArea fx:id="comments" layoutX="338.0" layoutY="328.0" prefHeight="88.0" prefWidth="398.0" />
+                  <Button fx:id="writeCommentButton" layoutX="487.0" layoutY="426.0" mnemonicParsing="false" onAction="#writeComment" text="Write Comment" />
+                  <Button fx:id="approveReservationButton" layoutX="476.0" layoutY="484.0" mnemonicParsing="false" onAction="#approveReservation" text="Approve reservation" />
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

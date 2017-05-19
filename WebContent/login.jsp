@@ -1,9 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1" import="motorhome.*, java.util.*"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Nordic Motorhomes Rental</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
+
+<%
+
+Run run = new Run();
+String email = request.getParameter("email");
+String password = request.getParameter("password");
+String action = request.getParameter("action");
+if("login".equals(action)){
+	run.login(email, password);
+}
+
+%>
+
     <div id="wrapper">
         <div id="header">
             <div class="left">
@@ -16,16 +33,15 @@
             </div>
         </div>
         <div id="navigation">
-            <p><a style="color:white; text-decoration:none" href="index.html">home</a> | <a style="color:white; text-decoration:none" href="login.html">login</a> | <a style="color:white; text-decoration:none" href="register.html">register</a></p>
+            <p><a style="color:white; text-decoration:none" href="index.jsp">home</a> | <a style="color:white; text-decoration:none" href="login.jsp">login</a> | <a style="color:white; text-decoration:none" href="register.jsp">register</a></p>
         </div>
         <div id="content">
-            <h1>Register</h1>
+            <h1>Login</h1>
             <div style="color:#575b5e;margin-bottom:20px;">
-                <form>
-                    Name: <input type="text" name="name"/></br></br>
+                <form action="login.jsp">
                     E-mail: <input type="text" name="email" /></br></br>
                     Password: <input type="password" name="password" /></br></br>
-                    <input type="submit" value="Register"/>
+					<button name="action" value="login"> Login </button>
                 </form>
             </div>
         </div>
@@ -33,7 +49,7 @@
             <div class="block">
                 <div class="left">
                     <b>Company & Site Information</b>
-                    <ul><li><a style="color:#70818b; text-decoration:none" href="index.html">home</li><li><a style="color:#70818b; text-decoration:none" href="login.html">login</li><li><a style="color:#70818b; text-decoration:none" href="register.html">register</li></ul>
+                    <ul><li><a style="color:#70818b; text-decoration:none" href="index.jsp">home</li><li><a style="color:#70818b; text-decoration:none" href="login.jsp">login</li><li><a style="color:#70818b; text-decoration:none" href="register.jsp">register</li></ul>
                     <hr />
                     <span>
                         &copy;2017 Nordic Motorhomes ApS. All Rights Reserved.</br>

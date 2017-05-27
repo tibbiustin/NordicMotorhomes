@@ -7,13 +7,13 @@
     <div id="content">
         <h1>Our Vehicles</h1>
         <%
-            // Set up the connection to the database using the class MYSQL
+            // Set up the connection to the database using the class MYSQL.
             Connection connHandle = MYSQL.getConnection();
             try {
-                // Select all vehicle types from the table 'typeofvehicle'
+                // Select all vehicle types from the table 'typeofvehicle'.
 
                 ResultSet rs = connHandle.prepareStatement("SELECT * FROM typeofvehicle").executeQuery();
-                //Output all the vehicles
+                //Output all the vehicles available in the database.
                 while(rs.next()){
         %>
                 <div class="vehicle">
@@ -21,6 +21,7 @@
                         <div class="left"><img src="images/vehicle1.JPG"></div>
                         <form action="checkbooking">
                         <div class="middle">
+                            <%--Output the vehicle category name--%>
                             <h3><%=rs.getString(3)%></h3>
 
                                 Departure:<br>

@@ -36,7 +36,7 @@ CREATE TABLE `typeofvehicle` (
 
 LOCK TABLES `typeofvehicle` WRITE;
 /*!40000 ALTER TABLE `typeofvehicle` DISABLE KEYS */;
-INSERT INTO `typeofvehicle` VALUES (2,'7','Mercedes');
+INSERT INTO `typeofvehicle` VALUES (1,'7','Mercedes');
 /*!40000 ALTER TABLE `typeofvehicle` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-05-24 12:56:19
+-- Dump completed on 2017-05-27 23:39:05

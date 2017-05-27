@@ -24,12 +24,12 @@ DROP TABLE IF EXISTS `customer`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `customer` (
   `id_customer` int(11) NOT NULL AUTO_INCREMENT,
-  `name_customer` varchar(20) DEFAULT NULL,
-  `email_customer` varchar(20) DEFAULT NULL,
-  `password_customer` varchar(20) DEFAULT NULL,
-  `cpr_customer` bigint(20) DEFAULT NULL,
+  `name_customer` varchar(50) DEFAULT NULL,
+  `email_customer` varchar(50) DEFAULT NULL,
+  `password_customer` varchar(50) DEFAULT NULL,
+  `cpr_customer` bigint(50) DEFAULT NULL,
   PRIMARY KEY (`id_customer`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `customer` (
 
 LOCK TABLES `customer` WRITE;
 /*!40000 ALTER TABLE `customer` DISABLE KEYS */;
-INSERT INTO `customer` VALUES (1,'George','george@george.com','1234',12345),(2,'gkj','fwjk','gwkgk',1234),(3,'Andrei','andrei@andrei.com','12345',12345),(4,'andi','amfjkdsf@fkjsd.com','1234',1234542);
+INSERT INTO `customer` VALUES (1,'George','george@george.com','1234',12345),(2,'gkj','fwjk','gwkgk',1234),(3,'Andrei','andrei@andrei.com','12345',12345),(4,'andi','amfjkdsf@fkjsd.com','1234',1234542),(5,'abcd','abcd@abcd','123',1234),(6,'customer','customer@customer','1234',1234),(7,'alabala','alabala@','1234',1234);
 /*!40000 ALTER TABLE `customer` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-05-17  1:23:00
+-- Dump completed on 2017-05-24 12:56:19

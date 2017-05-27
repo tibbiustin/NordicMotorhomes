@@ -1,12 +1,10 @@
 package sample;
 
-import com.sun.xml.internal.fastinfoset.algorithm.IntegerEncodingAlgorithm;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -14,23 +12,19 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
-import javax.xml.soap.Text;
-import java.awt.*;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import static sample.DatabaseConnection.getConnection;
-import static sample.GlobalVariables.reservation;
 
 /**
- * Created by George Stratulat on 17/05/2017.
+ * d by George Stratulat on 17/05/2017.
  */
-public class ManagerController{
+public class AdminController {
     @FXML
     private TableView<Customer> tableCustomers;
     @FXML
@@ -64,7 +58,7 @@ public class ManagerController{
         try {
             loadCustomers();
             loadTypeOfVehicles();
-            loadVehicles();
+            loadVehicle();
             loadReservations();
         } catch (Exception e) {
             e.printStackTrace();
@@ -145,7 +139,7 @@ public class ManagerController{
     @FXML
     private TableColumn<Vehicle, Integer> price_vehicle;
 
-    private void loadVehicles() throws Exception{
+    private void loadVehicle() throws Exception{
         try {
             Connection con = getConnection();
             dataVehicle = FXCollections.observableArrayList();
@@ -181,7 +175,7 @@ public class ManagerController{
         }catch(SQLException ex){
             System.err.println("Error" + ex);
         }
-        loadVehicles();
+        loadVehicle();
     }
 
     @FXML
@@ -204,7 +198,14 @@ public class ManagerController{
 
         try{
             Connection connection = getConnection();
-            connection.createStatement().executeUpdate("INSERT INTO vehicle(type_vehicle, license_vehicle, booked_vehicle, price_vehicle) VALUES ('"+vehicle_Type+"', '"+vehicle_License+"', '"+vehicle_Booked+"', '"+vehicle_Price+"')");
+            String sql = "INSERT INTO vehicle(type_vehicle, license_vehicle, booked_vehicle, price_vehicle) VALUES (?,?,?,?)";
+
+            PreparedStatement statement = connection.prepareStatement(sql);
+            statement.setString(1, vehicle_Type);
+            statement.setString(2, vehicle_License);
+            statement.setString(3,vehicle_Booked);
+            statement.setString(4,vehicle_Price);
+            statement.execute();
             vehicleType.setText("");
             vehicleLicense.setText("");
             vehicleBooked.setText("");
@@ -213,7 +214,7 @@ public class ManagerController{
         }catch (SQLException ex) {
             System.err.println("Error" + ex);
         }
-        loadVehicles();
+        loadVehicle();
     }
 
     @FXML
@@ -245,9 +246,11 @@ public class ManagerController{
         vehicleLicense.setText("");
         vehicleBooked.setText("");
         vehiclePrice.setText("");
-        loadVehicles();
+        loadVehicle();
 
     }
+
+
 
     @FXML
     private Button addTypeOfVehicleButton;
@@ -349,15 +352,6 @@ public class ManagerController{
 
     }
 
-    @FXML
-    private void openReservationPanel(ActionEvent event) throws Exception{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("reservation.fxml"));
-        Parent root1 = (Parent) fxmlLoader.load();
-        Stage stage = new Stage();
-        stage.setScene(new Scene(root1));
-        stage.show();
-
-    }
 
     @FXML
     private void deleteReservation(ActionEvent event){
@@ -459,6 +453,9 @@ public class ManagerController{
     }
 
     @FXML
+    private Button editReservationButton;
+
+    @FXML
     public void editReservation() throws Exception {
         Reservation reservation = tableReservation.getSelectionModel().getSelectedItem();
         reservation_id.setText(Integer.toString(reservation.getId_reservation()));
@@ -481,7 +478,7 @@ public class ManagerController{
     }
 
     @FXML
-    private void reservationSave(ActionEvent event) throws Exception {
+    private void saveReservation(ActionEvent event) throws Exception {
             String id_reservation = reservation_id.getText();
             String customer_reservation = reservation_customer_id.getText();
             String vehicle_reservation = reservation_vehicle.getText();

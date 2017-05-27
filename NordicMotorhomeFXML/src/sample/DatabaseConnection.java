@@ -4,10 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/**
- * Created by George Stratulat on 17/05/2017.
- */
-public class DatabaseConnection {
+
+public class DatabaseConnection /*used for accessing mySql database and the tables*/ {
     private final static String URL = "jdbc:mysql://localhost:3306/";
     private final static String DB_NAME = "motorhome";
     private final static String USER = "root";

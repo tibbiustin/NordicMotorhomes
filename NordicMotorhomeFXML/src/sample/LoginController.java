@@ -9,7 +9,6 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
@@ -19,7 +18,7 @@ import java.sql.Statement;
 
 import static sample.DatabaseConnection.getConnection;
 
-public class Controller extends ManagerController {
+public class LoginController extends AdminController {
 
     @FXML
     private javafx.scene.control.TextField usernameField;
@@ -82,7 +81,7 @@ public class Controller extends ManagerController {
         if((choiceboxLogin.getValue().equals("Admin") && (loginAdmin(usernameField.getText(),passwordField.getText())==true))){
             Node node=(Node) event.getSource();
             Stage stage=(Stage) node.getScene().getWindow();
-            Parent root = FXMLLoader.load(getClass().getResource("window.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("windowAdmin.fxml"));
             Scene scene = new Scene(root,1024,720);
             stage.setScene(scene);
             stage.show();

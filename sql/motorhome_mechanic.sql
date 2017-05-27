@@ -27,7 +27,7 @@ CREATE TABLE `mechanic` (
   `username_mechanic` varchar(45) DEFAULT NULL,
   `password_mechanic` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id_mechanic`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,6 +36,7 @@ CREATE TABLE `mechanic` (
 
 LOCK TABLES `mechanic` WRITE;
 /*!40000 ALTER TABLE `mechanic` DISABLE KEYS */;
+INSERT INTO `mechanic` VALUES (1,'mechanic','123');
 /*!40000 ALTER TABLE `mechanic` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -48,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-05-17  1:23:00
+-- Dump completed on 2017-05-24 12:56:19

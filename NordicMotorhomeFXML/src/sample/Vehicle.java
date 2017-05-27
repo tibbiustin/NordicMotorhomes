@@ -1,19 +1,20 @@
 package sample;
 
-import javafx.beans.property.*;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
 public class Vehicle {
     private final IntegerProperty id_vehicle;
     private final IntegerProperty type_vehicle;
     private final StringProperty license_vehicle;
-    private final BooleanProperty booked_vehicle;
     private final IntegerProperty price_vehicle;
 
-    public Vehicle(int id_vehicle, int type_vehicle, String license_vehicle, boolean booked_vehicle, int price_vehicle){
+    public Vehicle(int id_vehicle, int type_vehicle, String license_vehicle, int price_vehicle){
         this.id_vehicle = new SimpleIntegerProperty(id_vehicle);
         this.type_vehicle = new SimpleIntegerProperty(type_vehicle);
         this.license_vehicle = new SimpleStringProperty(license_vehicle);
-        this.booked_vehicle = new SimpleBooleanProperty(booked_vehicle);
         this.price_vehicle = new SimpleIntegerProperty(price_vehicle);
     }
 
@@ -51,18 +52,6 @@ public class Vehicle {
 
     public void setLicense_vehicle(String license_vehicle) {
         this.license_vehicle.set(license_vehicle);
-    }
-
-    public boolean isBooked_vehicle() {
-        return booked_vehicle.get();
-    }
-
-    public BooleanProperty booked_vehicleProperty() {
-        return booked_vehicle;
-    }
-
-    public void setBooked_vehicle(boolean booked_vehicle) {
-        this.booked_vehicle.set(booked_vehicle);
     }
 
     public int getPrice_vehicle() {

@@ -204,10 +204,9 @@
                   <TableView fx:id="tableVehicle" layoutX="524.0" layoutY="47.0" prefHeight="324.0" prefWidth="488.0">
                     <columns>
                       <TableColumn fx:id="id_vehicle" prefWidth="71.0" text="id" />
-                      <TableColumn fx:id="type_vehicle" prefWidth="83.0" text="type " />
-                        <TableColumn fx:id="license_vehicle" prefWidth="138.0" text="license plate" />
-                        <TableColumn fx:id="booked_vehicle" prefWidth="104.0" text="booked (YES/NO)" />
-                        <TableColumn fx:id="price_vehicle" prefWidth="91.0" text="price" />
+                      <TableColumn fx:id="type_vehicle" prefWidth="89.0" text="type " />
+                        <TableColumn fx:id="license_vehicle" prefWidth="187.0" text="license plate" />
+                        <TableColumn fx:id="price_vehicle" prefWidth="140.0" text="price" />
                     </columns>
                   </TableView>
                   <Button fx:id="deleteVehicleButton" layoutX="597.0" layoutY="402.0" mnemonicParsing="false" onAction="#deleteVehicle" text="Delete" />

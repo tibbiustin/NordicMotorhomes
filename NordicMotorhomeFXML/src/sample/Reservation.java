@@ -1,7 +1,6 @@
 package sample;
 
 import javafx.beans.property.*;
-import javafx.css.SimpleStyleableStringProperty;
 
 /**
  * Created by George Stratulat on 17/05/2017.

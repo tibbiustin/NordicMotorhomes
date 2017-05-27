@@ -4,15 +4,11 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.stage.Stage;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -146,7 +142,7 @@ public class AdminController {
 
             ResultSet rs = con.createStatement().executeQuery("SELECT * FROM vehicle");
             while (rs.next()) {
-                Vehicle vehicle = new Vehicle(rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getBoolean(4), rs.getInt(5));
+                Vehicle vehicle = new Vehicle(rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getInt(4));
                 dataVehicle.add(vehicle);
             }
             con.close();
@@ -157,7 +153,6 @@ public class AdminController {
         id_vehicle.setCellValueFactory(new PropertyValueFactory<>("id_vehicle"));
         type_vehicle.setCellValueFactory(new PropertyValueFactory<>("type_vehicle"));
         license_vehicle.setCellValueFactory(new PropertyValueFactory<>("license_vehicle"));
-        booked_vehicle.setCellValueFactory(new PropertyValueFactory<>("booked_vehicle"));
         price_vehicle.setCellValueFactory(new PropertyValueFactory<>("price_vehicle"));
         tableVehicle.setItems(null);
         tableVehicle.setItems(dataVehicle);
@@ -198,17 +193,15 @@ public class AdminController {
 
         try{
             Connection connection = getConnection();
-            String sql = "INSERT INTO vehicle(type_vehicle, license_vehicle, booked_vehicle, price_vehicle) VALUES (?,?,?,?)";
+            String sql = "INSERT INTO vehicle(type_vehicle, license_vehicle, price_vehicle) VALUES (?,?,?)";
 
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, vehicle_Type);
             statement.setString(2, vehicle_License);
-            statement.setString(3,vehicle_Booked);
-            statement.setString(4,vehicle_Price);
+            statement.setString(3,vehicle_Price);
             statement.execute();
             vehicleType.setText("");
             vehicleLicense.setText("");
-            vehicleBooked.setText("");
             vehiclePrice.setText("");
 
         }catch (SQLException ex) {
@@ -225,7 +218,6 @@ public class AdminController {
         Vehicle vehicle = tableVehicle.getSelectionModel().getSelectedItem();
         vehicleType.setText(Integer.toString(vehicle.getType_vehicle()));
         vehicleLicense.setText(vehicle.getLicense_vehicle());
-        vehicleBooked.setText(Boolean.toString(vehicle.isBooked_vehicle()));
         vehiclePrice.setText(Integer.toString(vehicle.getPrice_vehicle()));
 
     }
@@ -238,7 +230,14 @@ public class AdminController {
         Vehicle vehicle = tableVehicle.getSelectionModel().getSelectedItem();
         try{
             Connection con = getConnection();
-            con.createStatement().executeUpdate("UPDATE vehicle SET type_vehicle='"+vehicleType.getText()+"', license_vehicle='"+vehicleLicense.getText()+"', booked_vehicle='"+vehicleBooked.getText()+"', price_vehicle='"+vehiclePrice.getText()+"' WHERE id_vehicle='"+vehicle.getId_vehicle()+"'");
+            String sql = "UPDATE vehicle SET type_vehicle= ?, license_vehicle= ?, price_vehicle= ? WHERE id_vehicle= ?";
+            PreparedStatement statement = con.prepareStatement(sql);
+            statement.setString(1, vehicleType.getText());
+            statement.setString(2, vehicleLicense.getText());
+            statement.setString(3, vehiclePrice.getText());
+            statement.setString(4, Integer.toString(vehicle.getId_vehicle()));
+            statement.executeUpdate();
+
         }catch (SQLException ex) {
             System.err.println("Error" + ex);
         }
@@ -264,7 +263,11 @@ public class AdminController {
         String capacity_typeOfVehicle = capacity_tov.getText();
         try{
             Connection con = getConnection();
-            con.createStatement().executeUpdate("INSERT INTO typeofvehicle(brand_typeOfVehicle, capacity_typeOfVehicle) VALUES ('"+brand_typeOfVehicle+"', '"+capacity_typeOfVehicle+"')");
+            String sql = "INSERT INTO typeofvehicle(brand_typeOfVehicle, capacity_typeOfVehicle) VALUES (?, ?)";
+            PreparedStatement statement = con.prepareStatement(sql);
+            statement.setString(1, brand_typeOfVehicle);
+            statement.setString(2, capacity_typeOfVehicle);
+            statement.execute();
             brand_tov.setText("");
             capacity_tov.setText("");
 
@@ -441,9 +444,26 @@ public class AdminController {
         String comments_reservation = reservation_comments.getText();
         try{
             Connection con = getConnection();
-            con.createStatement().executeUpdate("INSERT INTO reservation VALUES(NULL, '"+start_reservation+"', '"+finish_reservation+"', '"+customer_reservation+"', '"+vehicle_reservation+"'" +
-                    ", '"+pick_reservation+"', '"+drop_reservation+"', '"+price_reservation+"', '"+bike_reservation+"', '"+child_reservation+"', '"+picnic_reservation+"', '"+payment_reservation+"'" +
-                    ", '"+paid_reservation+"', '"+fuel_reservation+"', '"+mechanic_reservation+"', '"+comments_reservation+"')");
+            String sql = "INSERT INTO reservation VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+
+            PreparedStatement statement = con.prepareStatement(sql);
+            statement.setString(1, start_reservation);
+            statement.setString(2, finish_reservation);
+            statement.setString(3, customer_reservation);
+            statement.setString(4, vehicle_reservation);
+            statement.setString(5, pick_reservation);
+            statement.setString(6, drop_reservation);
+            statement.setString(7, price_reservation);
+            statement.setString(8, bike_reservation);
+            statement.setString(9, child_reservation);
+            statement.setString(10, picnic_reservation);
+            statement.setString(11, payment_reservation);
+            statement.setString(12,paid_reservation);
+            statement.setString(13, fuel_reservation);
+            statement.setString(14, mechanic_reservation);
+            statement.setString(15, comments_reservation);
+
+            statement.executeUpdate();
 
         }catch (SQLException ex) {
             System.err.println("Error" + ex);
@@ -497,11 +517,28 @@ public class AdminController {
             String comments_reservation = reservation_comments.getText();
             try{
                 Connection con = getConnection();
-                con.createStatement().executeUpdate("UPDATE reservation SET start_reservation = '"+start_reservation+"', finish_reservation = '"+finish_reservation+"'," +
-                        "reservation_customer_id = '"+customer_reservation+"', vehicle_reservation = '"+vehicle_reservation+"', pickup_reservation = '"+pick_reservation+"'," +
-                        "dropoff_reservation = '"+drop_reservation+"', price_reservation = '"+price_reservation+"', bike_reservation = '"+bike_reservation+"', child_reservation = '"+child_reservation+"', " +
-                        "picnic_reservation = '"+picnic_reservation+"', payment_type_reservation = '"+payment_reservation+"', paid_reservation = '"+paid_reservation+"', " +
-                        "fuel_level_over_half_reservation = '"+fuel_reservation+"', mechanic_approval_reservation = '"+mechanic_reservation+"', mechanic_comments = '"+comments_reservation+"' WHERE id_reservation = '"+id_reservation+"' ");
+                String sql = ("UPDATE reservation SET start_reservation = ?, finish_reservation = ?, reservation_customer_id = ?, vehicle_reservation = ?," +
+                        "pickup_reservation = ?, dropoff_reservation = ?, price_reservation = ?, bike_reservation = ?, child_reservation = ?, picnic_reservation = ?, payment_type_reservation = ?," +
+                        "paid_reservation = ?, fuel_level_over_half_reservation = ?, mechanic_approval_reservation = ?, mechanic_comments = ? WHERE id_reservation = ?");
+
+                PreparedStatement ps = con.prepareStatement(sql);
+                ps.setString(1, start_reservation);
+                ps.setString(2, finish_reservation);
+                ps.setString(3, customer_reservation);
+                ps.setString(4, vehicle_reservation);
+                ps.setString(5, pick_reservation);
+                ps.setString(6, drop_reservation);
+                ps.setString(7, price_reservation);
+                ps.setString(8, bike_reservation);
+                ps.setString(9, child_reservation);
+                ps.setString(10, picnic_reservation);
+                ps.setString(11, payment_reservation);
+                ps.setString(12, paid_reservation);
+                ps.setString(13, fuel_reservation);
+                ps.setString(14, mechanic_reservation);
+                ps.setString(15, comments_reservation);
+                ps.executeUpdate();
+
                 loadReservations();
 
             }catch (SQLException ex) {

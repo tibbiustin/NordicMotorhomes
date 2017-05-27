@@ -27,20 +27,20 @@ CREATE TABLE `reservation` (
   `start_reservation` datetime DEFAULT NULL,
   `finish_reservation` datetime DEFAULT NULL,
   `reservation_customer_id` int(11) DEFAULT NULL,
+  `vehicle_reservation` int(11) DEFAULT NULL,
   `pickup_reservation` varchar(45) DEFAULT NULL,
   `dropoff_reservation` varchar(45) DEFAULT NULL,
   `price_reservation` varchar(45) DEFAULT NULL,
   `bike_reservation` tinyint(4) DEFAULT NULL,
   `child_reservation` tinyint(4) DEFAULT NULL,
   `picnic_reservation` tinyint(4) DEFAULT NULL,
-  `chairs_reservation` tinyint(4) DEFAULT NULL,
   `payment_type_reservation` varchar(45) DEFAULT NULL,
   `paid_reservation` tinyint(4) DEFAULT NULL,
   `fuel_level_over_half_reservation` tinyint(4) DEFAULT NULL,
   `mechanic_approval_reservation` tinyint(4) DEFAULT NULL,
-  `mechanic_comments` tinyint(4) DEFAULT NULL,
+  `mechanic_comments` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id_reservation`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -49,6 +49,7 @@ CREATE TABLE `reservation` (
 
 LOCK TABLES `reservation` WRITE;
 /*!40000 ALTER TABLE `reservation` DISABLE KEYS */;
+INSERT INTO `reservation` VALUES (1,'2017-04-20 00:00:00','2017-05-01 00:00:00',2,NULL,'there','there','1500',0,1,1,'card',1,1,1,'works like a charm'),(3,'2017-04-21 00:00:00','2017-05-02 00:00:00',3,3,'there','there','3123',1,0,1,'card',1,1,1,'fine');
 /*!40000 ALTER TABLE `reservation` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -61,4 +62,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-05-17  1:23:00
+-- Dump completed on 2017-05-24 12:56:19

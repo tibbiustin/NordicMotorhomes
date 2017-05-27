@@ -5,7 +5,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="1084.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ManagerController">
+<TabPane id="anotherAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="1084.0" stylesheets="@application.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminController">
   <tabs>
     <Tab text="Customers">
       <content>
@@ -25,7 +25,7 @@
     </Tab>
       <Tab text="Reservation">
         <content>
-            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="1256.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="1256.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
                 <children>
                     <Label layoutX="550.0" layoutY="25.0" text="Reservation" textAlignment="CENTER">
                         <font>
@@ -129,7 +129,7 @@
                     <TextField fx:id="reservation_mechanic" layoutX="750.0" layoutY="177.0" />
                     <TextField fx:id="reservation_comments" layoutX="750.0" layoutY="211.0" />
                     <Button fx:id="reservationCreateButton" layoutX="661.0" layoutY="286.0" mnemonicParsing="false" onAction="#createReservation" text="Create" />
-                    <Button fx:id="reservationSaveButton" layoutX="760.0" layoutY="286.0" mnemonicParsing="false" onAction="#reservationSave" text="Save " />
+                    <Button fx:id="reservationSaveButton" layoutX="760.0" layoutY="286.0" mnemonicParsing="false" onAction="#saveReservation" text="Save " />
                 </children>
             </AnchorPane>
         </content>
@@ -158,7 +158,6 @@
                         <TableColumn fx:id="vehicle_reservation" prefWidth="77.0" text="vehicle" />
                     </columns>
                   </TableView>
-                  <Button fx:id="addReservationButton" layoutX="387.0" layoutY="449.0" mnemonicParsing="false" onAction="#openReservationPanel" text="Add" />
                   <Button fx:id="editReservationButton" layoutX="507.0" layoutY="449.0" mnemonicParsing="false" onAction="#editReservation" text="Edit" />
                   <Button fx:id="deleteReservationButton" layoutX="645.0" layoutY="449.0" mnemonicParsing="false" onAction="#deleteReservation" text="Delete" />
                </children></AnchorPane>

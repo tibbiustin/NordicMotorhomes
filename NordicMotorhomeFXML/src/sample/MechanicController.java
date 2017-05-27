@@ -1,6 +1,5 @@
 package sample;
 
-import com.sun.org.apache.regexp.internal.RE;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

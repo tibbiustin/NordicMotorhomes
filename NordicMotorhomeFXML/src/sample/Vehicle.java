@@ -2,9 +2,6 @@ package sample;
 
 import javafx.beans.property.*;
 
-/**
- * Created by George Stratulat on 17/05/2017.
- */
 public class Vehicle {
     private final IntegerProperty id_vehicle;
     private final IntegerProperty type_vehicle;

@@ -26,10 +26,11 @@ CREATE TABLE `vehicle` (
   `id_vehicle` int(11) NOT NULL AUTO_INCREMENT,
   `type_vehicle` int(11) DEFAULT NULL,
   `license_vehicle` varchar(20) DEFAULT NULL,
-  `booked_vehicle` tinyint(4) DEFAULT NULL,
   `price_vehicle` int(11) DEFAULT NULL,
-  PRIMARY KEY (`id_vehicle`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+  PRIMARY KEY (`id_vehicle`),
+  KEY `id_typeOfVehicle_idx` (`type_vehicle`),
+  CONSTRAINT `id_typeOfVehicle` FOREIGN KEY (`type_vehicle`) REFERENCES `typeofvehicle` (`id_typeOfVehicle`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +39,7 @@ CREATE TABLE `vehicle` (
 
 LOCK TABLES `vehicle` WRITE;
 /*!40000 ALTER TABLE `vehicle` DISABLE KEYS */;
-INSERT INTO `vehicle` VALUES (2,2,'AB123CD',1,142);
+INSERT INTO `vehicle` VALUES (1,1,'AB123CD',142),(3,1,'AC312EC',145);
 /*!40000 ALTER TABLE `vehicle` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-05-24 12:56:19
+-- Dump completed on 2017-05-27 23:39:05

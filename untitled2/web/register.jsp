@@ -15,6 +15,7 @@
                     Password: <input type="password" name="customer_password" required/></br></br>
                     <input type="submit" value="Register">
                     <%
+                        //If the attribute of the session "Error" has been initialized an informative message will be shown to the user.
                         if(request.getSession().getAttribute("Error") != null){
                     %>
                         ${Error}

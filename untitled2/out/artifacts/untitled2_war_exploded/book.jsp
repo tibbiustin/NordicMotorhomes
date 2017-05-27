@@ -2,7 +2,6 @@
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="java.sql.PreparedStatement" %>
 <%@ page import="java.sql.SQLException" %>
-<%@ page import="java.text.SimpleDateFormat" %>
 <%@include file="templates/header.jsp" %>
 <%
     // Check if the user was redirected from our system
@@ -46,56 +45,32 @@
                 Price:<%
                     PreparedStatement queryVehicle = null;
                     int vehicleID = 0, price = 0;
+                    //Fetch of the sent parameters using the method 'GET'
                     String departureDateGET = request.getParameter("departure");
                     String returnDateGET = request.getParameter("return");
+                    String id = request.getParameter("id");
 
                     try {
-
-                        PreparedStatement queryVehicles = connHandle.prepareStatement("SELECT COUNT(`id_vehicle`) FROM `vehicle` WHERE type_vehicle = ?");
-                        queryVehicles.setString(1, request.getParameter("id"));
-                        ResultSet rsVehicle = queryVehicles.executeQuery();
-                        rsVehicle.next();
-
-                        SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
-                        PreparedStatement queryReservations = connHandle.prepareStatement(
-                            "SELECT * FROM reservation " +
-                            "WHERE vehicle_reservation IN (SELECT id_vehicle FROM vehicle WHERE type_vehicle = ? )"
-                        );
-                        queryReservations.setString(1, request.getParameter("id"));
-                        rs = queryReservations.executeQuery();
-                        System.out.println(queryReservations);
-
-                        int reservations = 0;
-                        while (rs.next()) {
-                            String reservationDepartureDate = rs.getString(2);
-                            String reservationReturnDate = rs.getString(3);
-
-                            if (date.parse(reservationDepartureDate).compareTo(date.parse(departureDateGET)) < 0 && date.parse(reservationReturnDate).compareTo(date.parse(returnDateGET)) < 0) {
-                                vehicleID = rs.getInt(5);
-                                break;
-                            }
-                            reservations ++;
-
-                        }
-                        if(vehicleID == 0 && reservations != rsVehicle.getInt(1)){
-                            queryVehicle  = connHandle.prepareStatement("SELECT id_vehicle FROM vehicle WHERE type_vehicle = ?");
-                            queryVehicle.setString(1, request.getParameter("id"));
-                            rs = queryVehicle.executeQuery();
-                            rs.next();
-                            vehicleID = rs.getInt(1);
-
-                        }
-                        rs = connHandle.prepareStatement("SELECT price_vehicle FROM vehicle WHERE id_vehicle = " + vehicleID).executeQuery();
-                        System.out.println(vehicleID);
-
+                        queryVehicle = connHandle.prepareStatement("SELECT id_vehicle, price_vehicle FROM vehicle" +
+                                " WHERE id_vehicle NOT IN (SELECT vehicle_reservation FROM reservation WHERE (finish_reservation >= ? AND ? >= start_reservation ) OR (finish_reservation >= ? AND ? >= start_reservation) )" +
+                                " AND vehicle.type_vehicle = ? LIMIT 1");
+                        queryVehicle.setString(1, departureDateGET);
+                        queryVehicle.setString(2, departureDateGET);
+                        queryVehicle.setString(3, returnDateGET);
+                        queryVehicle.setString(4, returnDateGET);
+                        queryVehicle.setString(5, id);
+                        System.out.println(queryVehicle);
+                        rs = queryVehicle.executeQuery();
                         if(rs.next()){
-                            price = rs.getInt(1);
+                            price = rs.getInt(2);
+                            vehicleID = rs.getInt(1);
                             %>
                             <%--Print out the price of the vehicle--%>
-                            <%=price%> - <%=vehicleID%>
+                            <%=price%> - Vehicle ID: <%=vehicleID%>
                         <%
                         }
                         else{
+
                             response.sendRedirect("index.jsp");
                             System.out.println("[ERROR Book.jsp] -> Price can't be found.");
                         }

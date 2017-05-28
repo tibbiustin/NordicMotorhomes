@@ -6,11 +6,10 @@ pageEncoding="ISO-8859-1" import="motorhome.*, java.util.*"%>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>Nordic Motorhomes Rental</title>
     <link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-<div id="header">
-    <div class="left">
-        <img src="images/logo.png" width="320px">
-    </div>
-</div>
-<%@include file="navigation.jsp" %>
+<header>
+    <%@include file="navigation.jsp" %>
+
+</header>

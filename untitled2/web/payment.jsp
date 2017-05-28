@@ -15,6 +15,7 @@
             query = connHandle.prepareStatement("UPDATE reservation SET paid_reservation = 1 WHERE reservation_customer_id = ? ORDER BY id_reservation DESC LIMIT 1");
             query.setInt(1, rs.getInt(1) );
             query.executeUpdate();
+            response.sendRedirect("reservations.jsp");
         }
         else{
             response.sendRedirect("index.jsp");

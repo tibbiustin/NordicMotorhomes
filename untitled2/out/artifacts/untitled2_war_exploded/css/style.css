@@ -53,6 +53,7 @@ header #right {
 	background-color: #fff;
 	padding-left: 20px;
 	padding-right: 20px;
+	min-height:760px;
 }
 
 .vehicle {

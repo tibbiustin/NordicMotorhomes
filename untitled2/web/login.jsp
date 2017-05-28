@@ -8,7 +8,7 @@
 
 
 
-        <div id="content" style="text-align: center; margin-top: 110px; margin-bottom: 420px">
+        <div id="content" style="text-align: center; margin-top: 110px;">
             <div class="w3-container defaultcolor">
                 <h2 style="color: white;">Login</h2>
             </div>

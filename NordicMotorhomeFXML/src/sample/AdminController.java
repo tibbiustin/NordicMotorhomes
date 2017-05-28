@@ -317,6 +317,7 @@ public class AdminController {
     @FXML
     private Button addReservationButton;
 
+    @FXML
     private void loadReservations() throws Exception{
         try {
             Connection con = getConnection();

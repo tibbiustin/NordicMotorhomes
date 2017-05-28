@@ -5,7 +5,7 @@
         }
     %>
     <div id="wrapper">
-        <div id="content" style="margin-bottom: 220px; text-align: center; margin-top: 100px;">
+        <div id="content" style=" text-align: center; margin-top: 100px;">
             <div class="w3-container defaultcolor">
                 <h2 style="color: white;">Register</h2>
             </div>

@@ -18,10 +18,18 @@
     String returnDate = request.getParameter("return");
     String price = request.getParameter("price");
 
+    if(child == null)
+        child = "0";
+    if(bike == null)
+        bike = "0";
+    if(picnic == null)
+        picnic = "0";
     if(dropoff == null)
         dropoff = "0";
     if(pickup == null)
         pickup = "0";
+    if(payment == null)
+        payment = "cash";
 
     double finalPrice = Integer.parseInt(price);
     String[] departureD = departure.split("-");
@@ -66,7 +74,7 @@
 </style>
 
 <div id="wrapper">
-    <div id="content" style="text-align: center; margin-top: 100px; color:black; margin-bottom: 40px;">
+    <div id="content" style="text-align: center; margin-top: 100px; color:black;">
 
         <h1>Receipt</h1>
         <table style="width:70%" align="center">

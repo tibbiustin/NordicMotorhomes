@@ -25,10 +25,10 @@
                             <strong><%=rs.getString(3)%></strong><br>
 
                                 Departure:<br>
-                                <input type="date" name="departure" min="2017-01-01" required>
+                                <input type="date" name="departure" min="2017-06-08" required>
                                 <br>
                                 Return:<br>
-                                <input type="date" name="return" min="2017-01-01" required>
+                                <input type="date" name="return" min="2017-06-08" required>
                                 <input type="hidden" name="id" value="<%=rs.getInt(1)%>">
                         </div>
                         <div class="right">

@@ -56,7 +56,7 @@
 %>
 <%!
     public String printOption(String x) {
-        if(x == null)
+        if(x.equals("0"))
             return "No";
         else
             return "Yes";

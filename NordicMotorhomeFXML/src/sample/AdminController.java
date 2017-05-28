@@ -537,6 +537,7 @@ public class AdminController {
                 ps.setString(13, fuel_reservation);
                 ps.setString(14, mechanic_reservation);
                 ps.setString(15, comments_reservation);
+                ps.setString(16, id_reservation);
                 ps.executeUpdate();
 
                 loadReservations();

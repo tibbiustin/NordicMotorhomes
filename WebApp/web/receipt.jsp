@@ -113,7 +113,7 @@
             </tr>
         </table>
         <%
-            if(payment == "Card"){
+            if(payment.equals("Card")){
         %>
         <h2>Credit Card Information:</h2>
         <form action="payment.jsp" class="post">

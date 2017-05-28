@@ -89,6 +89,7 @@ public class MechanicController {
         }
     }
 
+    @FXML
     private void loadReservationsMechanic() throws Exception{
         try {
             Connection con = getConnection();

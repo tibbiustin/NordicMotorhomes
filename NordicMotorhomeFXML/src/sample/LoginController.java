@@ -11,6 +11,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
+import javafx.scene.control.Alert;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -87,14 +88,17 @@ public class LoginController extends AdminController {
             stage.show();
 
         }
-        else
-            if ((choiceboxLogin.getValue().equals("Mechanic") && (loginMechanic(usernameField.getText(),passwordField.getText())==true))){
+        else if ((choiceboxLogin.getValue().equals("Mechanic") && (loginMechanic(usernameField.getText(),passwordField.getText())==true))){
             Node node=(Node) event.getSource();
             Stage stage=(Stage) node.getScene().getWindow();
             Parent root = FXMLLoader.load(getClass().getResource("windowMechanic.fxml"));
             Scene scene = new Scene(root,1024,720);
             stage.setScene(scene);
             stage.show();
+        }
+        else {
+            Alert alert = new Alert(Alert.AlertType.ERROR, "Invalid Login");
+            alert.show();
         }
 
     }

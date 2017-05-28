@@ -25,6 +25,7 @@
                         <TableColumn fx:id="password_customer" prefWidth="177.0" text="password" />
                     </columns>
                   </TableView>
+                  <Button fx:id="reloadCustomers" layoutX="516.0" layoutY="467.0" mnemonicParsing="false" onAction="#loadCustomers" text="Reload" />
                </children></AnchorPane>
       </content>
     </Tab>

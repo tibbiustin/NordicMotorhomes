@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -24,6 +26,22 @@ public class RegisterController extends HttpServlet {
         String customer_cpr =  request.getParameter("customer_cpr");
         String customer_email =  request.getParameter("customer_email");
         String customer_password =  request.getParameter("customer_password");
+        /*====================================[HASHING & SALTING]==================================*/
+            /*
+                  -> Used hashing algorithm: SHA-256
+                  -> Salting: add the username to the end of the password
+            */
+        MessageDigest md = null;
+        try {
+            md = MessageDigest.getInstance("SHA-256");
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        customer_password += customer_email;
+        md.update(customer_password.getBytes("UTF-8"));
+        byte[] digest = md.digest();
+        customer_password = String.format("%064x", new java.math.BigInteger(1, digest));
+        /*====================================[END HASHING & SALTING]=============================*/
 
         //Verifications for invalid CPR
         if(!isInteger(customer_cpr,10) || customer_cpr.length() != 10){

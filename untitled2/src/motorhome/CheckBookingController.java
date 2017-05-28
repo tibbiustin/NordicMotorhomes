@@ -53,9 +53,14 @@ public class CheckBookingController extends HttpServlet {
                 int vehicleStock = 0;
                 vehicleStock = rs.getInt(1);
 
+                // Invalid departure and return date
+                if(returnDateGET.compareTo(departureDateGET) <= 0) {
+                    request.getSession().setAttribute("MessageIndex", "You inserted invalid dates.");
+                    response.sendRedirect("index.jsp");
+                }
                 // If the number of reservations is equal to the number of the vehicles, the user can't reserve a car for this period because there isn't any vehicle available.
-                if (vehicleStock == 0) {
-                    request.getSession().setAttribute("errorReservation", "This period is already booked.");
+                else if (vehicleStock == 0) {
+                    request.getSession().setAttribute("MessageIndex", "This period is already booked.");
                     response.sendRedirect("index.jsp");
                 } else {
                     //We set an attribute session called 'validBooking' to avoid malicious attempts of testing our system for security vulnerabilities.

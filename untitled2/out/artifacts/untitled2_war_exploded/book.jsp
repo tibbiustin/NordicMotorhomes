@@ -36,13 +36,12 @@
 
 %>
 <div id="wrapper">
-    <div id="content" style="text-align: center">
+    <div id="content" style="text-align: center; margin-bottom: 527px;">
         <%--Output the name of the vehicle type--%>
         <h1><%=rs.getString(3)%></h1>
-            <form action="proceedbook" method="post">
-                Pickup Location: <input type="text" name="pickup" required> <br><br>
-                Drop off Location: <input type="text" name="dropoff" required> <br>
-                Price:<%
+            <form action="receipt.jsp" method="post">
+
+                <strong>Price</strong>:<%
                     PreparedStatement queryVehicle = null;
                     int vehicleID = 0, price = 0;
                     //Fetch of the sent parameters using the method 'GET'
@@ -66,7 +65,7 @@
                             vehicleID = rs.getInt(1);
                             %>
                             <%--Print out the price of the vehicle--%>
-                            <%=price%> - Vehicle ID: <%=vehicleID%>
+                <%=price%><br> <strong>Vehicle ID:</strong> <%=vehicleID%>
                         <%
                         }
                         else{
@@ -80,6 +79,8 @@
 
                 %>
                     <br>
+                Distance from our pickup location: <input type="text" name="pickup" required> <br><br>
+                Distance from our drop off location: <input type="text" name="dropoff" required> <br>
                 Bike: <input type="checkbox" name="bike" value="1"> <br>
                 Child: <input type="checkbox" name="child" value="1"> <br>
                 Picnic: <input type="checkbox" name="picnic" value="1"> <br>
@@ -89,9 +90,11 @@
                 <input type="hidden" name="return" value="<%=request.getParameter("return")%>">
                 <input type="hidden" name="departure" value="<%=request.getParameter("departure")%>">
                 <input type="hidden" name="price" value="<%=price%>">
-                <input type="submit" value="Book">
+                <input type="submit" value="Book" class="w3-button w3-light-grey w3-round-xlarge">
             </form>
 <%
     }
 %>
+    </div>
+</div>
 <%@include file="templates/footer.html" %>

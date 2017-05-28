@@ -7,9 +7,9 @@ import java.sql.SQLException;
 
 public class DatabaseConnection /*used for accessing mySql database and the tables*/ {
     private final static String URL = "jdbc:mysql://localhost:3306/";
-    private final static String DB_NAME = "motorhome";
+    private final static String DB_NAME = "motorhomes";
     private final static String USER = "root";
-    private final static String PASS = "1234";
+    private final static String PASS = "";
 
     public static Connection getConnection() {
         try {

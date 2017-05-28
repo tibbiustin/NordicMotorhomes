@@ -61,6 +61,7 @@ public class AdminController {
         }
     }
 
+    @FXML
     private void loadCustomers() throws Exception{
         try {
             Connection con = getConnection();

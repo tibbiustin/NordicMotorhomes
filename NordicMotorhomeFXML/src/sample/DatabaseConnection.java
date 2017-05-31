@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 
 public class DatabaseConnection /*used for accessing mySql database and the tables*/ {
-    private final static String URL = "jdbc:mysql://localhost:3306/";
+    private final static String URL = "jdbc:mysql://5.196.26.114:3306/";
     private final static String DB_NAME = "motorhomes";
-    private final static String USER = "root";
-    private final static String PASS = "";
+    private final static String USER = "dat16j";
+    private final static String PASS = "JPxVe0doGx0ezf5zJxGC";
 
     public static Connection getConnection() {
         try {

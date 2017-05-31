@@ -9,15 +9,16 @@ import java.sql.DriverManager;
 //
 public class MYSQL {
     public static Connection getConnection(){
-        String connectionUrl = "jdbc:mysql://localhost:3306/motorhomes";
+        String connectionUrl = "jdbc:mysql://5.196.26.114:3306/motorhomes";
         Connection connection = null;
 
         try{
             Class.forName("com.mysql.jdbc.Driver");
-            connection = DriverManager.getConnection(connectionUrl, "root", "");
+            connection = DriverManager.getConnection(connectionUrl, "dat16j", "JPxVe0doGx0ezf5zJxGC");
         }catch(Exception e) {
             e.printStackTrace();
         }
         return connection;
     }
 }
+
